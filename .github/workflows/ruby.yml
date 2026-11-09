@@ -3,12 +3,13 @@
 
 name: Ruby
 
-on:
-  push:
-    branches: [ "master", "incoming" ]
-  pull_request:
-    branches: [ "master", "incoming" ]
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches: [ "master", "incoming" ]
+#   pull_request:
+#     branches: [ "master", "incoming" ]
+# 
 permissions:
   contents: read
 
